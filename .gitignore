@@ -1,0 +1,63 @@
+# ===========================================
+# .gitignore — modulos_odoo_20 (estructura padre)
+# ===========================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+# Odoo / temporales
+*.log
+logs/
+*.bak
+*.orig
+*.rej
+*.tmp
+*.odb
+*.pid
+*.filestore
+*.sessions
+*.db
+*.sqlite
+*.sql
+*.dump
+
+# Entornos virtuales
+venv/
+env/
+.venv
+.env
+
+# Secrets
+.secrets/
+secrets/
+*.pem
+*.key
+*.crt
+secret.txt
+*_password.txt
+*_password
+*.secret
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Editores / sistema
+.vscode/
+.idea/
+.cursor/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# Sesiones de agentes
+session-ses_*
